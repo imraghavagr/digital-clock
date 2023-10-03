@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Caveat', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Oxanium', cursive;
+    box-sizing: border-box;
+    color: white;
+}
+body{
+    background-color: black;
+    height: 100vh;
+}
+.container{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.clock{
+    font-size: 5rem;
+}
